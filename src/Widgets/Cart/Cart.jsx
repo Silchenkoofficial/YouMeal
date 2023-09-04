@@ -5,6 +5,7 @@ import CartItem from "./CartItem";
 import { Button } from "Components";
 
 import DeliveryIcon from "assets/icons/delivery.svg";
+import axios from "axios";
 
 const data = [
   {
@@ -17,6 +18,13 @@ const data = [
 ];
 
 const Cart = () => {
+  const [imagePath, setImagePath] = React.useState("");
+
+  React.useEffect(() => {
+    axios.get("http://localhost:3000/burgers").then((res) => {
+      setImagePath(res.data[0].image);
+    });
+  }, [imagePath]);
   return (
     <CartWrapper>
       <CartHeader>
@@ -33,7 +41,7 @@ const Cart = () => {
           <p>Итого:</p>
           <p>1279₽</p>
         </CartFooterAmount>
-        <Button full>Оформить заказ</Button>
+        <Button full={1}>Оформить заказ</Button>
         <CartFooterDelivery>
           <img src={DeliveryIcon} alt="" />
           Бесплатная доставка

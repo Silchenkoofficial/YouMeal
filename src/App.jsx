@@ -5,6 +5,7 @@ import { Button } from "Components";
 import { Cart, Categories } from "Widgets";
 import { Container, Main } from "Layouts";
 import { TopSection } from "Sections";
+import axios from "axios";
 
 function App() {
   return (

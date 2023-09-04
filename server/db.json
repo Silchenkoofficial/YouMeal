@@ -1,0 +1,174 @@
+{
+  "burgers": [
+    {
+      "id": 101,
+      "name": "Мясная бомба",
+      "image": "/src/assets/burgers/meat-bomb.jpg",
+      "weight": 520,
+      "kcal": 430,
+      "price": 689,
+      "description": "Супер мясное наслаждение! Большая рубленая котлета из свежего говяжего мяса покорит вас своей сочностью, а хрустящие листья салата добавят свежести.",
+      "composition": [
+        "Пшеничная булочка",
+        "Котлета из говядины",
+        "Красный лук",
+        "Листья салата",
+        "Соус горчичный"
+      ]
+    },
+    {
+      "id": 102,
+      "name": "Супер сырный",
+      "image": "/src/assets/burgers/cheeseburger.jpg",
+      "weight": 512,
+      "kcal": 430,
+      "price": 550,
+      "description": "Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem",
+      "composition": [
+        "Ингредиент 1",
+        "Ингредиент 2",
+        "Ингредиент 3",
+        "Ингредиент 4",
+        "Ингредиент 5"
+      ]
+    },
+    {
+      "id": 103,
+      "name": "Сытный",
+      "image": "/src/assets/burgers/hearty.jpg",
+      "weight": 580,
+      "kcal": 430,
+      "price": 639,
+      "description": "Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem",
+      "composition": [
+        "Ингредиент 1",
+        "Ингредиент 2",
+        "Ингредиент 3",
+        "Ингредиент 4"
+      ]
+    },
+    {
+      "id": 104,
+      "name": "Тяжелый удар",
+      "image": "/src/assets/burgers/heavy-blow.jpg",
+      "weight": 470,
+      "kcal": 430,
+      "price": 480,
+      "description": "Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem",
+      "composition": [
+        "Ингредиент 1",
+        "Ингредиент 2",
+        "Ингредиент 3",
+        "Ингредиент 4",
+        "Ингредиент 5",
+        "Ингредиент 6"
+      ]
+    },
+    {
+      "id": 105,
+      "name": "Вечная классика",
+      "image": "/src/assets/burgers/timeless-classic.jpg",
+      "weight": 450,
+      "kcal": 430,
+      "price": 450,
+      "description": "Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem",
+      "composition": ["Ингредиент 1", "Ингредиент 2", "Ингредиент 3"]
+    },
+    {
+      "id": 106,
+      "name": "Итальянский",
+      "image": "/src/assets/burgers/italian.jpg",
+      "weight": 510,
+      "kcal": 430,
+      "price": 560,
+      "description": "Lorem Lorem Lorem Lorem Lorem Lorem Lorem",
+      "composition": [
+        "Ингредиент 1",
+        "Ингредиент 2",
+        "Ингредиент 3",
+        "Ингредиент 4",
+        "Ингредиент 5",
+        "Ингредиент 6",
+        "Ингредиент 7",
+        "Ингредиент 8",
+        "Ингредиент 9"
+      ]
+    }
+  ],
+  "snacks": [
+    {
+      "id": 201,
+      "name": "Начос",
+      "weight": 220,
+      "kcal": 430,
+      "price": 250,
+      "description": "Lorem Lorem Lorem Lorem",
+      "composition": ["Ингредиент 1", "Ингредиент 2", "Ингредиент 3"]
+    },
+    {
+      "id": 202,
+      "name": "Картошка фри",
+      "weight": 180,
+      "kcal": 430,
+      "price": 245,
+      "description": "Lorem Lorem Lorem Lorem Lorem Lorem",
+      "composition": ["Ингредиент 1", "Ингредиент 2"]
+    },
+    {
+      "id": 203,
+      "name": "Луковые кольца",
+      "weight": 160,
+      "kcal": 430,
+      "price": 230,
+      "description": "Lorem Lorem Lorem Lorem Lorem Lorem",
+      "composition": ["Ингредиент 1", "Ингредиент 2"]
+    }
+  ],
+  "hotdogs": [
+    {
+      "id": 301,
+      "name": "Домашний хот-дог",
+      "weight": 250,
+      "kcal": 430,
+      "price": 290,
+      "description": "Lorem Lorem Lorem Lorem",
+      "composition": [
+        "Ингредиент 1",
+        "Ингредиент 2",
+        "Ингредиент 3",
+        "Ингредиент 4",
+        "Ингредиент 5",
+        "Ингредиент 6"
+      ]
+    },
+    {
+      "id": 302,
+      "name": "Жгущий хот-дог",
+      "weight": 245,
+      "kcal": 430,
+      "price": 239,
+      "description": "Lorem Lorem Lorem Lorem",
+      "composition": [
+        "Ингредиент 1",
+        "Ингредиент 2",
+        "Ингредиент 3",
+        "Ингредиент 4"
+      ]
+    },
+    {
+      "id": 303,
+      "name": "Классический хот-дог",
+      "weight": 215,
+      "kcal": 430,
+      "price": 220,
+      "description": "Lorem Lorem Lorem",
+      "composition": [
+        "Ингредиент 1",
+        "Ингредиент 2",
+        "Ингредиент 3",
+        "Ингредиент 4",
+        "Ингредиент 5"
+      ]
+    }
+  ]
+}

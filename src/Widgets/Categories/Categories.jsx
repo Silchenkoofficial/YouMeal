@@ -61,7 +61,7 @@ const Categories = () => {
         <Chip
           key={el.title}
           onClick={() => handleChangeChip(el.title)}
-          isActive={activeChip === el.title}
+          isActive={activeChip === el.title ? 1 : 0}
         >
           {el.icon}
           {el.title}
